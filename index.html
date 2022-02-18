@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sistemas de Gestión Integrados, Ideal para tu Negocio.
+Cientos de Empresas en el Perú y el Mundo están Ganando Tiempo y Tranquilidad con 4MegaTech7. Solicite tu Asesoría Gratuita.">
+  <meta name="generator" content="HTML5">
+  <meta name="theme-color" content="#030422" />
+  <title>Teclado PRO</title>
+  <!-- Datos Open Graph -->
+  <meta property="og:title" content="4MEGATECH - Expertos en Plataformas Digitales con IA y Blockchain" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.4megatech.com" />
+  <meta property="og:description" content="Sistemas de Gestión Integrados, Ideal para tu Negocio. Solicite tu Asesoría Gratuita.">
+  <meta property="og:site_name" content="4MEGATECH">
+  <meta property="og:image" content="https://4megatech.com/RecursosWeb/imagen/facebook/facebook.jpg">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/emersson126/Imagenes/master/emailpro/tecladopros.png">
+  </head>
+  <body>
+    <!-- 1. Define some markup -->
+      <button class="buttontop btn_a">á</button>
+      <button class="buttontop btn_A">Á</button>
+
+      <button class="buttontop btn_e">é</button>
+      <button class="buttontop btn_E">É</button>
+
+      <button class="buttontop btn_i">í</button>
+      <button class="buttontop btn_I">Í</button>
+
+      <button class="buttontop btn_o">ó</button>
+      <button class="buttontop btn_O">Ó</button>
+
+      <button class="buttontop btn_u">ú</button>
+      <button class="buttontop btn_U">Ú</button>
+
+      <button class="buttontop btn_ur">ü</button>
+      <button class="buttontop btn_Ur">Ü</button>
+
+      <button class="buttontop btn_ure">ñ</button>
+      <button class="buttontop btn_Ure">Ñ</button>
+
+      <button class="buttontop btn_Uri">¿</button>
+      <button class="buttontop btn_urei">|</button>
+      <button class="buttontop btn_Urei">¡</button>
+
+    <!-- 2. Include library -->
+    <script src="javascript.js"></script>
+    
+    <!-- 3. Instantiate clipboard -->
+    <script>
+      var clipboard = new ClipboardJS('.btn_a', {text: function () {return 'á';},});
+      var clipboard = new ClipboardJS('.btn_A', {text: function () {return 'Á';},});
+
+      var clipboard = new ClipboardJS('.btn_e', {text: function () {return 'é';},});
+      var clipboard = new ClipboardJS('.btn_E', {text: function () {return 'É';},});
+
+      var clipboard = new ClipboardJS('.btn_i', {text: function () {return 'í';},});
+      var clipboard = new ClipboardJS('.btn_I', {text: function () {return 'Í';},});
+
+      var clipboard = new ClipboardJS('.btn_o', {text: function () {return 'ó';},});
+      var clipboard = new ClipboardJS('.btn_O', {text: function () {return 'Ó';},});
+
+      var clipboard = new ClipboardJS('.btn_u', {text: function () {return 'ú';},});
+      var clipboard = new ClipboardJS('.btn_U', {text: function () {return 'Ú';},});
+
+      var clipboard = new ClipboardJS('.btn_ur', {text: function () {return 'ü';},});
+      var clipboard = new ClipboardJS('.btn_Ur', {text: function () {return 'Ü';},});
+
+      var clipboard = new ClipboardJS('.btn_ure', {text: function () {return 'ñ';},});
+      var clipboard = new ClipboardJS('.btn_Ure', {text: function () {return 'Ñ';},});
+
+      var clipboard = new ClipboardJS('.btn_Uri', {text: function () {return '¿';},});
+      var clipboard = new ClipboardJS('.btn_urei', {text: function () {return '|';},});
+      var clipboard = new ClipboardJS('.btn_Urei', {text: function () {return '¡';},});
+
+      clipboard.on('success', function (e) {
+        console.log(e);
+      });
+
+      clipboard.on('error', function (e) {
+        console.log(e);
+      });
+    </script>
+    <style type="text/css">
+      .buttontop{
+        border: 2px solid #2ea44f ;
+        border-radius: 5px;
+        padding: 20px;   
+        background: #fff;
+        font-size: 60px;
+        font-weight: 700;   
+        width: 110px;
+        margin:5px 3px ;
+        cursor:pointer; cursor: hand
+    }
+      .buttontop:hover{
+        border: 2px solid #2ea44f ;
+        border-radius: 5px;
+        padding: 20px;   
+        color: #fff !important;
+        background: #2ea44f !important;
+        font-size: 60px;
+        font-weight: 700;   
+        width: 110px;
+        margin:5px 3px ;
+        cursor:pointer; cursor: hand
+    }
+      .buttontop:active{
+        background: yellow !important;
+        color: #000 !important;
+        padding: 21px;
+        border: 3px solid yellow ;
+        border-radius: 7px;
+      }
+    </style>
+  </body>
+</html>
